@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}   
+
+.watch {
+    margin: 80px 20px 20px 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.todoList {
+    width: 50%;
+    padding: 30px;
+    background-color: #ffcc29;
+    text-align: center;
+    color: #222831;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+body {
+    background: #394a6d;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#stopwatch {
+    font-size: 700%;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: #394a6d;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#btn {
+    width: 100px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50px;
+    background: #ffcc29;
+    color: white;
+    color: #222831;
+}
+
+#btn:hover {
+    background: #ff935c;
+}
+
+#buttons li {
+    display: inline;
+    padding-left: 10px;
+}
+
+
+/* Todo List */
+
+.add-element {
+    margin: 12px 0;
+}
+
+input {
+    padding: 10px 4px;
+    width: 50%;
+    border: none;
+  
+}
+
+.element-list {
+    height: 30%;
+    overflow-y: auto;
+}
+
+ul {
+    padding: 10px;
+}
+
+#list li {
+    list-style: none;
+    padding: 10px 5px;
+    margin: 1px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    border-radius: 3px;
+    transition: .4s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #18b0b0;
+}
+
+.element-list li:hover {
+    background-color: #ff935c;
+}
+
+.checked {
+    text-decoration: line-through;
+    background-color: #f1d18a;
+} 
+
+.fas {
+    position: absolute;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.fas:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#list button {
+    background-color: #f1d18a;
+}
